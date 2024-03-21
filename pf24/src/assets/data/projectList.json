@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "name": "Project 1",
+        "summary": "Summary of Project 1",
+        "description": "Detailed description of Project 1",
+        "technologies": ["Tech 1", "Tech 2", "Tech 3"],
+        "coverImage": "url/to/cover/image1.jpg",
+        "illustrationImages": ["url/to/image1.jpg", "url/to/image2.jpg"],
+        "externalLinks": {
+          "github": "https://github.com/project1",
+          "demo": "https://demo.project1.com"
+        }
+      },
+      {
+        "name": "Project 2",
+        "summary": "Summary of Project 2",
+        "description": "Detailed description of Project 2",
+        "technologies": ["Tech A", "Tech B", "Tech C"],
+        "coverImage": "url/to/cover/image2.jpg",
+        "illustrationImages": ["url/to/image3.jpg", "url/to/image4.jpg"],
+        "externalLinks": {
+          "github": "https://github.com/project2",
+          "demo": "https://demo.project2.com"
+        }
+      },
+      {
+        "name": "Project 3",
+        "summary": "Summary of Project 3",
+        "description": "Detailed description of Project 3",
+        "technologies": ["Tech X", "Tech Y", "Tech Z"],
+        "coverImage": "url/to/cover/image3.jpg",
+        "illustrationImages": ["url/to/image5.jpg", "url/to/image6.jpg"],
+        "externalLinks": {
+          "github": "https://github.com/project3",
+          "demo": "https://demo.project3.com"
+        }
+      }
+    ]
+  }
+  

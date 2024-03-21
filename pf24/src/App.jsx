@@ -1,24 +1,15 @@
 import './App.css'
+import React from 'react';
+import RouterApp from './components/RouterApp';
+
 
 function App() {
 
   return (
-    <>
-    < Nav/>
-    < Hero />
-    <section>
-      <h2>Mes projets</h2>
-      < ProjectContainer />
-    </section>
-    <section>
-      <h2>Qui suis-je?</h2>
-      
-    </section>
-    <footer>
-
-    </footer>
-    </>
+    <React.Fragment>
+      <RouterApp/>
+    </React.Fragment>
   )
 }
 
-export default App
+export default App;
