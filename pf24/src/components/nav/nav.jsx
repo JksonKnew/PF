@@ -1,7 +1,18 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./nav.scss"
 
 function Nav() {
     return (
-        <div><h1>Nav</h1></div>
+        <section className="navigationSection">
+            <div className="logoContainer">
+                <span className="logo">{"</"}</span>
+            </div>
+            <div className="linkContainer">
+                <span><Link to="/">Home</Link></span>
+                <span><Link to="/about">About</Link></span>
+            </div>
+        </section>
     )
 }
 
