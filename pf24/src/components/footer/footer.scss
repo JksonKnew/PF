@@ -1,5 +1,51 @@
+@import "../../styles/mixins.scss";
 .footerSection{
-    background-color: aqua;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+
+    .footerContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1000px;
+        margin: 100px 0px;
+        .footerText {
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+        .footerLogoContainer {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            color: $primaryFontDarkTheme;
+            div {
+                background-color: $primaryFont;
+                width: 50px;
+                height: 50px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (prefers-color-scheme: dark) {
+                    background-color: $primaryFontDarkTheme;
+                }
+                i {
+                    position: relative;
+                    top: 2px;
+                    @media (prefers-color-scheme: dark) {
+                        color: $primaryFont;
+                    }
+                }
+            }
+        }
+    }
+    .footerCredit {
+        color: #919191;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
 }

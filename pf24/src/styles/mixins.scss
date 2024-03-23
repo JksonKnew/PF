@@ -1,8 +1,23 @@
+$primaryFont : #213547;
 $primary: #8B5CF6;
 $darkerPrimary : #5B21B6;
+
+$primaryFontDarkTheme: #ffffff;
+$primaryDarkTheme: #C4B5FD;
 
 @mixin mainText {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: $primaryFont;
+    @media (prefers-color-scheme: dark) {
+        color: $primaryFontDarkTheme;
+    }
+}
+
+@mixin primaryColor {
+    color: $primary;
+    @media (prefers-color-scheme: dark) {
+        color: $primaryDarkTheme;
+    }
 }

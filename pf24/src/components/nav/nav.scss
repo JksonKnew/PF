@@ -1,15 +1,32 @@
+@import '../../styles/mixins.scss';
+
 .navigationSection{
     display: flex;
-    width: 90vh;
+    width: 90%;
+    max-width: 1500px;
     height: 50px;
     justify-content: space-between;
-    background-color: aqua;
+    align-items: center;
+    padding: 0px 20px;
+
     position: absolute;
     z-index: 1;
-    margin: 20px;
+    margin: 40px;
+    .logo {
+        color: $primaryFont;
+        @include mainText;
+        font-size: 3em;
+        font-weight: 900;
+        .logoDot {
+            color: $primary;
+        }
+    }
     .linkContainer{
         display: flex;
         justify-content: center;
         gap: 2rem;
+        span {
+            font-size: 1.25em;
+        }
     }
 }

@@ -16,7 +16,7 @@
         .heroContent {
             z-index: 1;
             h2 {
-                color: $darkerPrimary;
+                @include primaryColor;
             }
         }
         .heroIllustration {
@@ -36,8 +36,8 @@
         }
         svg {
             height: 30px;
+            color: #213547;
         }
-
 
         :hover {
             cursor: pointer;

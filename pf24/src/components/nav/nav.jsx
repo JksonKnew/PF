@@ -6,7 +6,7 @@ function Nav() {
     return (
         <section className="navigationSection">
             <div className="logoContainer">
-                <span className="logo">{"</"}</span>
+                <span className="logo">{"</"}<span className="logoDot">.</span></span>
             </div>
             <div className="linkContainer">
                 <span><Link to="/">Home</Link></span>

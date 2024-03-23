@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 100px;
     .projectContainer {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 90%;
-        gap: 82px;
+        justify-content: center;
+        max-width: 1200px;
+        gap: 100px;
     }
 }

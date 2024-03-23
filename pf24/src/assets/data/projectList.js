@@ -5,7 +5,7 @@ export const projectsList =  [
         "name": "Project 1",
         "summary": "Summary of Project 1",
         "description": "Detailed description of Project 1",
-        "technologies": ["Tech 1", "Tech 2", "Tech 3"],
+        "technologies": ["js", "react", "redux"],
         "coverImage": "../../assets/data/images/cover-images/project1cover.jpeg",
         "illustrationImages": ["url/to/image1.jpg", "url/to/image2.jpg"],
         "externalLinks": {
