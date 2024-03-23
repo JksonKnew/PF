@@ -1,0 +1,29 @@
+.heroMainSection {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .heroContentContainer {
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 75%;
+        .heroContent {
+            z-index: 1;
+        }
+        .heroScroll {
+            position: absolute;
+            bottom: 20px;
+        }
+        .heroIllustration {
+            position: absolute;
+            right: 20%;
+            z-index: 0;
+        }
+    }
+}

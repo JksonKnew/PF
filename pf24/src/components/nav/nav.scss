@@ -1,8 +1,12 @@
 .navigationSection{
     display: flex;
-    width: 100%;
+    width: 90vh;
+    height: 50px;
     justify-content: space-between;
     background-color: aqua;
+    position: absolute;
+    z-index: 1;
+    margin: 20px;
     .linkContainer{
         display: flex;
         justify-content: center;
