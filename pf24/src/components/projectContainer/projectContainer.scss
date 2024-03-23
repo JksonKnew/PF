@@ -1,0 +1,16 @@
+
+.projectSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .projectContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90%;
+        background-color: burlywood;
+        gap: 82px;
+    }
+}

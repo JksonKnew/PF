@@ -7,10 +7,7 @@ function HomePage() {
     return(
     <React.Fragment>
             <Hero />
-        <section className="projectSection">
-            <h2>Projects</h2>
             <ProjectContainer />
-        </section>
         <AboutResume />
     </React.Fragment>
     )

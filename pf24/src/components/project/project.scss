@@ -1,0 +1,27 @@
+.projectArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 660px;
+    width: 518px;
+    border-radius: 20px;
+    border: solid 0.1px grey;
+    .projectCover {
+        height: 50%;
+        width: 100%;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            border-radius: 20px 20px 0px 0px;
+        }
+    }
+    .projectContent {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+}
