@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MySVGComponent(props) {
+function HeroSvg(props) {
   return (
     <svg width="543" height="569" viewBox="0 0 543 569" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <g filter="url(#filter0_f_232_1084)">
@@ -21,4 +21,4 @@ function MySVGComponent(props) {
   );
 }
 
-export default MySVGComponent;
+export default HeroSvg;

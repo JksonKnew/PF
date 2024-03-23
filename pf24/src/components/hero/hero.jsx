@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.scss"
-import MySVGComponent from "../../assets/Vector";
+import HeroSvg from "../../assets/svg/heroSvg";
+import ChevronDown from "../../assets/svg/chevronDown";
 
 
 function Hero() {
@@ -8,16 +9,17 @@ function Hero() {
         <section className="heroMainSection">
             <div className="heroContentContainer">
                 <div className="heroContent">
-                    <h1>Bastien DAVIN</h1>
+                    <h1>Hi, I'm Bastien</h1>
                     <h2>Front end developper</h2>
                 </div>
                 <div className="heroIllustration">
-                    <MySVGComponent/>
-                </div>
-                <div className="heroScroll">
-                    <span>Scroll Down</span>
+                    <HeroSvg/>
                 </div>
             </div>
+                <div className="heroScroll">
+                    <span>Scroll</span>
+                    <ChevronDown/>
+                </div>
         </section>
     )
 }

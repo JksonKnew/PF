@@ -1,0 +1,8 @@
+$primary: #8B5CF6;
+$darkerPrimary : #5B21B6;
+
+@mixin mainText {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}

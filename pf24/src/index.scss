@@ -1,3 +1,5 @@
+@import '../src/styles/mixins.scss';
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,6 +16,7 @@
 }
 
 a {
+  @include mainText;
   font-weight: 500;
   text-decoration: inherit;
 }
@@ -28,8 +31,21 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  @include mainText;
+  font-weight: 700;
+  font-size: 5em;
+  margin: 0px;
+}
+
+h2 {
+  @include mainText;
+  font-weight: 700;
+  font-size: 2em;
+  margin: 0px;
+}
+
+span {
+  @include mainText;
 }
 
 button {

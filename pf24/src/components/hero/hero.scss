@@ -1,29 +1,48 @@
+@import '../../styles/mixins.scss';
+
 .heroMainSection {
     height: 100vh;
     width: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     .heroContentContainer {
-        background-color: aqua;
         display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
         height: 60%;
         width: 75%;
+        max-width: 1000px;
         .heroContent {
             z-index: 1;
-        }
-        .heroScroll {
-            position: absolute;
-            bottom: 20px;
+            h2 {
+                color: $darkerPrimary;
+            }
         }
         .heroIllustration {
-            position: absolute;
-            right: 20%;
+            position: relative;
+            left: 20%;
             z-index: 0;
+            width: 0px;
+        }
+    }
+    .heroScroll {
+        position: absolute;
+        bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        span {
+            font-weight: 500;
+        }
+        svg {
+            height: 30px;
+        }
+
+
+        :hover {
+            cursor: pointer;
+            gap: 20px;
+            transition: 0.25s;
         }
     }
 }
