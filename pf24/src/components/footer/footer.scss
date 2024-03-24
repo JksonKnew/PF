@@ -36,6 +36,7 @@
                 i {
                     position: relative;
                     top: 2px;
+                    color: $primaryFontDarkTheme;
                     @media (prefers-color-scheme: dark) {
                         color: $primaryFont;
                     }

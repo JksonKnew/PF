@@ -1,0 +1,17 @@
+.skillsLogoContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    .skillLogo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        span {
+            font-size: small;
+        }
+    }
+}

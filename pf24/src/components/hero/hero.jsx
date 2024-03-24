@@ -1,7 +1,6 @@
 import React from "react";
 import "./hero.scss"
 import HeroSvg from "../../assets/svg/heroSvg";
-import ChevronDown from "../../assets/svg/chevronDown";
 
 
 function Hero() {
@@ -19,7 +18,7 @@ function Hero() {
             </div>
                 <div className="heroScroll">
                     <span>Scroll</span>
-                    <ChevronDown/>
+                    <i className="fa-solid fa-chevron-down fa-2xl"></i>
                 </div>
         </section>
     )

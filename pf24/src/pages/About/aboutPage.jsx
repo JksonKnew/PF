@@ -1,12 +1,28 @@
 import React from "react";
+import img from '../../assets/data/images/cover-images/project1cover.jpeg';
+import './aboutPage.scss';
+import SkillList from "../../components/skillList/skillList";
 
 function AboutPage() {
     return(
-        <section>
-
-        <div>about</div>
-        <div>
-        "Hello there! I'm Bastien, a passionate frontend developer with a keen eye for creativity and design. I specialize in crafting visually stunning and user-friendly web experiences that leave a lasting impression. With a strong focus on branding and product aesthetics, I bring concepts to life with precision and flair. My dedication to excellence ensures that every line of code I write contributes to building engaging digital solutions. Let's collaborate and turn your vision into an unforgettable online presence!"</div>
+        <section className="aboutMainContainer">
+            <h1 className="aboutTitle">About Me</h1>
+            <div className="quoteContainer">
+                <div className="quoteImg">
+                    <img src={img} alt="Bastien DAVIN" />
+                </div>
+                <div className="quoteText">
+                    <h2>Quote...</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur. Nisl et tincidunt nisi turpis odio viverra tempor aliquet. Egestas tempor a massa risus volutpat tellus. Varius fames aliquet consectetur lobortis massa pretium enim et consectetur.</span>
+                    <span>Lorem ipsum dolor sit amet consectetur. Nisl et tincidunt nisi turpis odio viverra tempor aliquet. Egestas tempor a massa risus volutpat tellus. Varius fames aliquet consectetur lobortis massa pretium enim et consectetur.</span>
+                    <span>Lorem ipsum dolor sit amet consectetur. Nisl et tincidunt nisi turpis odio viverra tempor aliquet. Egestas tempor a massa risus volutpat tellus. Varius fames aliquet consectetur lobortis massa pretium enim et consectetur.</span>
+                </div>
+            </div>
+            <div className="skillsContainer">
+                <h2>Skills</h2>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima nihil assumenda laudantium mollitia? Cum maiores at, doloremque animi rerum soluta, aut, asperiores aspernatur sed accusamus neque? Quis, blanditiis ab!</span>
+                <SkillList/>
+            </div>
         </section>
     )
 }
