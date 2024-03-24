@@ -1,6 +1,6 @@
 import React from "react";
 import { projectsList } from "../../assets/data/projectList.js"
-import Project from "../project/project";
+import Project from "../project/project.jsx";
 import "./projectContainer.scss"
 
 
