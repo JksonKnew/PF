@@ -17,6 +17,11 @@
             z-index: 1;
             h2 {
                 @include primaryColor;
+                margin-left: 3px;
+                margin-bottom: 10px 
+            }
+            span {
+                margin-left: 3px;
             }
         }
         .heroIllustration {
