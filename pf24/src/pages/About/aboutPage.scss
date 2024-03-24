@@ -3,7 +3,7 @@
 .aboutMainContainer {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 200px;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
@@ -14,7 +14,7 @@
         width: 100%;
         gap: 50px;
         .quoteImg {
-            height: 500px;
+            height: auto;
             width: 400px;
             img {
                 height: 100%;
@@ -38,6 +38,13 @@
         align-items: center;
         max-width: 1200px;
         padding: 20px;
+        gap: 30px;
+    }
+    .interestContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 30px;
     }
 }
