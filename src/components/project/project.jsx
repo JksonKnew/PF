@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import { useEffect } from "react";
 import Carousel from '../carousel/Carousel';
 import "./project.scss";
 import { Link } from "react-router-dom";
@@ -6,6 +7,7 @@ import { Link } from "react-router-dom";
 
 function Project(props) {
     const [isOpen, setIsOpen] = useState(false);
+    const modalRef = useRef();
 
     const handleOpenModal = () => {
         setIsOpen(true)
@@ -15,6 +17,18 @@ function Project(props) {
         setIsOpen(false)
     }
 
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (modalRef.current && !modalRef.current.contains(event.target)) {
+                handleCloseModal();
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
 
     return (
     <React.Fragment>
@@ -41,7 +55,7 @@ function Project(props) {
             </div>
         </article>
         {!isOpen ? (""): (
-        <div className="modaleContainer">
+        <div className="modaleContainer" ref={modalRef}>
             <div className="modaleNav" onClick={handleCloseModal}><i className="fa-solid fa-xmark fa-xl"></i></div>
             <div className="carouselMain">
                 <Carousel i={props.illustrationImages} />

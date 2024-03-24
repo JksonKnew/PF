@@ -7,7 +7,7 @@ export const projectsList =  [
         "summary": "Bank account interface",
         "description": "ArgentBank, a comprehensive banking interface, consolidates user accounts. My task focused on managing user authentication with Redux while ensuring robust security measures for connections. Through meticulous implementation, the project fortified user authentication protocols, enhancing the platform's reliability and user trust.",
         "technologies": [techno.react, techno.js, techno.sass],
-        "coverImage": "/public/images/argentbank/cover.png",
+        "coverImage": "/src/assets/data/images/cover.png",
         "illustrationImages": ["/src/assets/data/images/argentbank/cover.png", "/src/assets/data/images/argentbank/img1.png", "/src/assets/data/images/argentbank/img2.png"],
         "externalLinks": {
           "VIEW CODE": "https://github.com/JksonKnew/P11",
