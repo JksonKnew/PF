@@ -1,5 +1,7 @@
 @import '../../styles/mixins.scss';
 
+
+
 .aboutResumeSection {
     display: flex;
     max-width: 1200px;
@@ -31,5 +33,14 @@
         align-items: baseline;
         gap: 30px;
     }
+    @media screen and (max-width: 800px) {
+        .aboutResumePicture {
+            display: none;
+        }
+        .aboutResumeContent {
+            width: 70%;
+        }
+    }
 }
+
 

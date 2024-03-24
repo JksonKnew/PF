@@ -1,5 +1,5 @@
 import React from "react";
-import img from '../../assets/data/images/cover-images/project1cover.jpeg';
+import img from '../../assets/data/images/bastien_davin.jpg';
 import './aboutPage.scss';
 import SkillList from "../../components/skillList/skillList";
 

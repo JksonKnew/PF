@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutResume.scss";
-import picture from '../../assets/data/images/cover-images/project1cover.jpeg';
+import picture from '../../assets/data/images/bastien_davin.jpg';
 import { Link } from "react-router-dom";
 
 function AboutResume() {

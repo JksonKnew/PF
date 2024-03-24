@@ -4,7 +4,6 @@ import Project from "../project/project";
 import "./projectContainer.scss"
 
 
-import img from "../../assets/data/images/cover-images/project1cover.jpeg"
 
 
 function ProjectContainer() {
