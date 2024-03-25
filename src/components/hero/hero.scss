@@ -9,6 +9,7 @@
     .heroContentContainer {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         height: 60%;
         width: 75%;
@@ -25,10 +26,11 @@
             }
         }
         .heroIllustration {
-            position: absolute;
-            right: 40%;
-            z-index: 0;
-            width: 0px;
+            width: 10%;
+            svg {
+                position: relative;
+                right: 100px;
+            }
         }
     }
     .heroScroll {
