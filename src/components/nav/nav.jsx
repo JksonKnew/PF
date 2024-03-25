@@ -9,7 +9,7 @@ function Nav() {
                 <span className="logo">{"</"}<span className="logoDot">.</span></span>
             </div>
             <div className="linkContainer">
-                <span><Link to="/">Home</Link></span>
+                <span><Link to="/PF">Home</Link></span>
                 <span><Link to="/about">About</Link></span>
             </div>
         </section>

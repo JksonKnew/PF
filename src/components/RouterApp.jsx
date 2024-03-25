@@ -10,7 +10,7 @@ function RouterApp() {
     <Router>
         <Nav />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/PF" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
