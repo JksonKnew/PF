@@ -8,7 +8,7 @@ function ErrorPage() {
     const navigate = useNavigate();
 
     useEffect(() => {
-      navigate("/");
+      navigate("/PF");
     }, [navigate]);
 
     return(
